@@ -253,6 +253,11 @@ h1, h2, h3, h4, h5, h6 {
   left: 100%;
   visibility: visible;
 }
+/* ESTO ERA LO QUE TENIAS QUE EDITAR DEL MENU */
+.navbar .dropdown ul a{
+  color: green;
+}
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -361,6 +366,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   background-size: cover;
   position: relative;
+  background-image: url('../img/euskalechea.jpg');
 }
 #hero:before {
   content: "";
