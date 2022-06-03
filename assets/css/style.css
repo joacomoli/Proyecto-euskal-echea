@@ -7,16 +7,15 @@
     flex-direction: row;
     font-size: 30px;
     text-align: center;
+    background-color: #F41000;
 }
 
 .flex-item {
-    background-color: #f1f1f1;
     padding: 10px;
     flex: 50%;
 }
 
 .flex-item {
-    background-color: dodgerblue;
     padding: 10px;
     flex: 50%;
 }
@@ -26,7 +25,21 @@ header {
 
     background-image: url('../img/euskalecheafondo.jpg');
     background-size: cover;
-    height: 80em;
+    height: 40em;
+    color: #ffffff;
+    text-align: center;
+
+}
+h1{
+font-size: 26px;
+}
+.aprendiendo{
+color: #ffffff;
+font-family: Georgia, serif;
+}
+h2{
+  font-size: 24px;
+
 }
 
 .imagencircular {
@@ -34,11 +47,17 @@ header {
     width: 200px;
     height: 200px;
 }
+h3{
 
+}
+.niveles{
+  
+}
 .logo {
 
     width: 200px;
     height: 100px;
+  
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
