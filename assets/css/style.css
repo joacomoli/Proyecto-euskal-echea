@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item{
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+
+header{
+    
+    background-image: url('../img/euskalecheafondo.jpg');
+    background-size: cover;
+    height: 80em;
+}
+.imagencircular{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.logo{
+    
+    width: 200px;
+    height: 100px;
+}
+  
+    /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
