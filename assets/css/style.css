@@ -9,6 +9,21 @@
     text-align: center;
     background-color: #ffffff;
 }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    background-color: #357e3d;
+}
 
 .flex-item {
     padding: 10px;
@@ -22,19 +37,21 @@
 
 
 header {
-
-    background-image: url('../img/euskalecheafondo.jpg');
+    background:url('../img/euskalecheafondo.jpg');
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.5);
     background-size: cover;
     height: 40em;
     color: #ffffff;
     text-align: center;
+    padding-top: 100px;
+    justify-content: center;
+    vertical-align: middle;
+}
 
-}
-h1{
-}
 .aprendiendo-verde{
     font-size: 26px;
-font-family: Georgia, serif;
+    font-family: Georgia, serif;
 }
 .aprendiendo-rojo{
 color: #ffffff;
@@ -43,8 +60,9 @@ font-size: 15px;
 }
 h2{
   font-size: 24px;
-  font-family: Arial, sans-serif;
-  background-color: #357e3d;
+  text-align: center;
+  align-content: center;
+  
 }
 
 .imagencircular {
@@ -52,23 +70,57 @@ h2{
     width: 200px;
     height: 200px;
 }
-h3{ 
- 
 
-}
 .niveles{
   color: #CE2027;
   font-size: 20px;
   font-family: Georgia,serif;
 
 }
+.texto-niveles{
+    font-size: 15px;
+    padding: 50px;
+}
 .logo {
-
-    width: 200px;
     height: 100px;
   
 }
+.textoblanco{
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.cambridge{
+    font-size: 40px;
+    font-family: Georgia,serif;
+    color:#CE2027 ;
+    text-align: center;
+    justify-content: left;
 
+}
+.nene{
+    background-image: url('../img/nene.jpg');
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.5);
+    background-size: cover;
+    text-align: left;
+    justify-content: left;
+    height: 600px;
+    padding: 200px;
+}
+.textocambridge{
+    font-size: 24px;
+    padding-left:30px ;
+    margin-left: 450px;
+    color: #ffffff;
+    
+}
+footer{
+    padding: 50px;
+}
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
     .flex-container {
